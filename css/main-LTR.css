@@ -3261,7 +3261,7 @@ body.rounded-btns .read-more {
 /*   End our-team Section   */
 /*   Start our-clients Section   */
 .our-clients {
-  background-color: var(--clr-main);
+  /* background-color: var(--clr-main); */
 }
 .our-clients .sec-heading .title {
   font-size: 1.75rem;

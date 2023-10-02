@@ -1,6 +1,0 @@
-window.addEventListener('load', function() {
-    window.dataLayer = window.dataLayer || []; window.dataLayer.push({"pageType":"Demo","portalName":"All","portalContent":"All","categoryName":"Other"});
-    });
-    window.addEventListener('load', function() {
-    window.dataLayer = window.dataLayer || []; window.dataLayer.push({"ecommerce":null}); window.dataLayer.push({"event":"view_item","ecommerce":{"items":[{"item_id":"297700","item_name":"1","affiliation":"AminThemes","discount":0,"item_brand":"Website templates","item_category":"Website","item_category2":"in_one - true","item_category3":"updated - true","item_category4":"booster - 125","item_variant":"premium + 46","price":0.39,"quantity":1,"item_list_name":"","index":1}]}});window.dataLayer.push({"event":"detailViewNew","productDetailView":{"name":"Flex-IT | Business Services &amp;  IT Solutions Multipurpose Responsive Website Template","id":"297700","price":0.39,"brand":"Website templates","category":"Website","variant":"premium + 46","imageurl":"https:\/\/s.tmimgcdn.com\/scr\/800x500\/297700\/flex-it--business-services-amp-it-solutions-multipurpose-responsive-website-template_297700-5-original.jpg","similars":[]}});
-    });
