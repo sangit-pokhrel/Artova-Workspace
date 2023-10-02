@@ -1,14 +1,4 @@
-/*===================================================
-Project: flex-it - IT Solutions & Business Services Responsive HTML5 Bootstrap5  Website Template 
-Auther: amin-themes
-Version: 2.0
-Last change:22 Mar 2023
-Template Description: IT Solutions & Business Services Responsive HTML5 Bootstrap5  Website Template 
-====================================================*/
 
-//GLOBAL VARIBALES
-
-//selector constants
 var root = $("html, body");
 const main_window = $(window),
   pageBody = $("body"),
@@ -60,6 +50,7 @@ $(function () {
   const darkTheme_class = "dark-theme";
   const lightTheme_class = "light-theme";
   const themeStoredItem = localStorage.getItem(themeStoredKey);
+  const statsbar = document.getElementById("statsbar")
   /*********  Custom functions Area *********/
 
   function setThemeMode(themeColor) {
@@ -68,6 +59,7 @@ $(function () {
       modeSwitcher.addClass(darkTheme_class).removeClass(lightTheme_class);
       localStorage.setItem(themeStoredKey, darkTheme_class);
       localStorage.removeItem(lightTheme_class);
+      statsbar.style.backgroundColor = "#060922";
     }
     if (themeColor === lightTheme_class) {
       pageBody.removeClass(darkTheme_class);
@@ -75,6 +67,9 @@ $(function () {
       localStorage.setItem(themeStoredKey, lightTheme_class);
       localStorage.removeItem(darkTheme_class);
     }
+    // if(themeColor == darkTheme_class){
+    //   statsbar.style.backgroundColor =     }
+    
   }
 
   /* *******  Set the theme according to the local storage value ********/

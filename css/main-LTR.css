@@ -2729,8 +2729,8 @@ body.rounded-btns .read-more {
   max-width: 200px;
   width: 200px;
   height: 70px;
-  background-image: url("../assets/images/about/signature-dark.png");
-  background-size: contain;
+  background-image: url("../assets/images/about/sangit-sign-dark.png");
+  background-size: fill;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -4993,7 +4993,7 @@ body.rounded-btns .read-more {
   position: relative;
   overflow: hidden;
   z-index: 0;
-  background-color: var(--clr-dark-blue);
+  background-color: var(--clr-main);
 }
 .stats .section-heading .line-solid-color {
   background: var(--clr-white);
@@ -5029,7 +5029,7 @@ body.rounded-btns .read-more {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--clr-main);
+  color: white;
   opacity: 0.65;
   transition: all 0.2s ease-in-out 0s;
 }
