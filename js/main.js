@@ -50,7 +50,22 @@ $(function () {
   const darkTheme_class = "dark-theme";
   const lightTheme_class = "light-theme";
   const themeStoredItem = localStorage.getItem(themeStoredKey);
-  const statsbar = document.getElementById("statsbar")
+  const statsbar = document.getElementById("statsbar");
+  const testimonialbar = document.getElementById("testimonials-img-bg");
+  const content = document.getElementById("testicontent");
+  const testicontentname = document.getElementById("testicontentname");
+  const testicontentwork = document.getElementById("testicontentwork");
+
+  const content1 = document.getElementById("testicontent1");
+  const testicontentname1 = document.getElementById("testicontentname1");
+  const testicontentwork1 = document.getElementById("testicontentwork1");
+
+  const content2 = document.getElementById("testicontent2");
+  const testicontentname2 = document.getElementById("testicontentname2");
+  const testicontentwork2 = document.getElementById("testicontentwork2");
+
+  const clienttext = document.getElementById("clienttext")
+
   /*********  Custom functions Area *********/
 
   function setThemeMode(themeColor) {
@@ -60,12 +75,57 @@ $(function () {
       localStorage.setItem(themeStoredKey, darkTheme_class);
       localStorage.removeItem(lightTheme_class);
       statsbar.style.backgroundColor = "#060922";
+      testimonialbar.style.backgroundColor = "#060922";
+      
+      setTimeout(function () {
+       
+        testimonialbar.classList.remove('fade-transition');
+    }, 1500);
+      content.style.color = "white";
+      testicontentname.style.color = "white";
+      testicontentwork.style.color = "white";
+
+      content1.style.color = "white";
+      testicontentname1.style.color = "white";
+      testicontentwork1.style.color = "white";
+
+      content2.style.color = "white";
+      testicontentname2.style.color = "white";
+      testicontentwork2.style.color = "white";
+      clienttext.style.color = "#fff"
+  
+
     }
     if (themeColor === lightTheme_class) {
       pageBody.removeClass(darkTheme_class);
       modeSwitcher.addClass(lightTheme_class).removeClass(darkTheme_class);
       localStorage.setItem(themeStoredKey, lightTheme_class);
       localStorage.removeItem(darkTheme_class);
+      statsbar.style.backgroundColor = "#09aff4";
+
+      
+      testimonialbar.style.backgroundColor = "#fff";
+      
+      setTimeout(function () {
+        
+        testimonialbar.classList.remove('fade-transition');
+    }, 1500);
+      content.style.color = "#222";
+      testicontentname.style.color = "#222";
+      testicontentwork.style.color = "#222";
+
+
+      content1.style.color = "black";
+      testicontentname1.style.color = "black";
+      testicontentwork1.style.color = "black";
+
+      content2.style.color = "#222";
+      testicontentname2.style.color = "black";
+      testicontentwork2.style.color = "black";
+
+     clienttext.style.color = "#222"
+
+
     }
     // if(themeColor == darkTheme_class){
     //   statsbar.style.backgroundColor =     }

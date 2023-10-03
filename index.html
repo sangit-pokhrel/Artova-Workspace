@@ -466,9 +466,9 @@
     <!-- Start  our-clients Section-->
     <section class="our-clients  mega-section   wow fadeInUp" id="our-clients" data-wow-delay="0.2s">
       <div class="container">
-        <div class="sec-heading   centered ">
+        <div class="sec-heading centered ">
           <div class="content-area">
-            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s" ">trusted by over 500 clients around the world</h2>
+            <h2 class=" title wow fadeInUp" data-wow-delay=".4s" id="clienttext">trusted by over 500 clients around the world</h2>
           </div>
         </div>
         <div class=" clients-logos d-flex align-items-center justify-content-around flex-wrap">
@@ -505,7 +505,7 @@
     <!-- End  our-clients Section-->
     
     <!-- Start  testimonials Section-->
-    <section class="testimonials testimonials-1-col   has-dark-bg  mega-section " id="testimonials-img-bg">
+    <section class="testimonials testimonials-1-col   has-dark-bg  mega-section " id="testimonials-img-bg" >
       <div class="overlay-photo-image-bg parallax " data-bg-img="assets/images/sections-bg-images/1.jpg" data-bg-opacity=".25"> </div>
       <div class="container">
         <div class="sec-heading  centered ">
@@ -524,14 +524,14 @@
                       <div class="customer-img "><img class="img-fluid " loading="lazy" src="assets/images/testimonials/nefolibanner.png" alt="First Slide "></div>
                       <div class="customer-testimonial">
                         <div class="content">
-                          <p class="testimonial-text "> THIS IS THE BEST PLATFORM EVER IF YOU WANT TO HIRE PROFESSIONAL AT THE SUPER LOW COST BUT WITH EXCELLENT QUALITY.
+                          <p class="testimonial-text" id="testicontent"> THIS IS THE BEST PLATFORM EVER IF YOU WANT TO HIRE PROFESSIONAL AT THE SUPER LOW COST BUT WITH EXCELLENT QUALITY.
                             I HAD WORKED WITH THEM SINCE 3 PROJECT AND THEY HAVE NEVER DISAPPOINTED ME WITH THEIR WORK.</p>
                         </div>
                       </div>
                       <div class="customer-info ">
                         <div class="customer-details">
-                          <p class="customer-name">Prabesh Bhandari aka Nefoli</p>
-                          <p class="customer-role">Content Creater At Youtube</p>
+                          <p class="customer-name" id="testicontentname">Prabesh Bhandari aka Nefoli</p>
+                          <p class="customer-role" id="testicontentwork">Content Creater At Youtube</p>
                         </div>
                       </div>
                     </div>
@@ -544,14 +544,14 @@
                       <div class="customer-img "><img class="img-fluid " loading="lazy" src="assets/images/testimonials/subas kandel.jpg" alt="First Slide "></div>
                       <div class="customer-testimonial">
                         <div class="content">
-                          <p class="testimonial-text ">
+                          <p class="testimonial-text " id="testicontent1">
                             "Artova has truly set the bar high! I recently purchased jersey design services from them, and I must say, it's been an exceptional experience. The quality of the design and the speed of service are both off the charts. I received my customized jersey designs in record time, and the quality exceeded my expectations. Artova is, without a doubt, the best place I can think of for any services of this nature. They've earned my trust, and I'll be returning for all my future creative needs. Highly recommended!"</p>
                         </div>
                       </div>
                       <div class="customer-info ">
                         <div class="customer-details">
-                          <p class="customer-name">Subas Kandel</p>
-                          <p class="customer-role">CEO Of Nest Nepal</p>
+                          <p class="customer-name" id="testicontentname1">Subas Kandel</p>
+                          <p class="customer-role" id="testicontentwork1">CEO Of Nest Nepal</p>
                         </div>
                       </div>
                     </div>
@@ -564,13 +564,13 @@
                       <div class="customer-img "><img class="img-fluid " loading="lazy" src="assets/images/testimonials/samip.jpg" alt="First Slide "></div>
                       <div class="customer-testimonial">
                         <div class="content">
-                          <p class="testimonial-text ">⭐⭐⭐⭐⭐ "Artova is a true gem in the world of art and design. Their ability to capture the essence of my ideas and translate them into breathtaking visuals is simply remarkable. Working with Artova was a pleasure; they were responsive, efficient, and full of brilliant ideas. If you're looking for top-notch artistry, Artova is the answer.</p>
+                          <p class="testimonial-text " id="testicontent2">⭐⭐⭐⭐⭐ "Artova is a true gem in the world of art and design. Their ability to capture the essence of my ideas and translate them into breathtaking visuals is simply remarkable. Working with Artova was a pleasure; they were responsive, efficient, and full of brilliant ideas. If you're looking for top-notch artistry, Artova is the answer.</p>
                         </div>
                       </div>
                       <div class="customer-info ">
                         <div class="customer-details">
-                          <p class="customer-name">Samip Gyawali</p>
-                          <p class="customer-role">Ceo of Tourney Hub</p>
+                          <p class="customer-name" id="testicontentname2">Samip Gyawali</p>
+                          <p class="customer-role" id="testicontentwork2">Ceo of Tourney Hub</p>
                         </div>
                       </div>
                     </div>
@@ -601,10 +601,7 @@
           <div class="col-12 col-md-8 col-lg-4  footer-col "><img class="img-fluid footer-logo" loading="lazy" src="assets/images/logo/ARTOVA_NAV_PNG_WHITE.png" alt="logo"/>
             <div class="footer-col-content-wrapper">        
               <p class="footer-text-about-us ">
-                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatibus facere modi possimus dignissimos, 
-                aliquam nobis eaque? Voluptatem magnam quisquam rem.
-                
+                Artova Workspace is your go-to hub for a seamless blend of work and inspiration. Connect with us today to discover our exceptional team and a range of services tailored to elevate your workspace experience and help your business thrive.                
               </p>
             </div>
             <div class="form-area ">
@@ -622,31 +619,33 @@
             </div>
           </div>
           <div class="col-6 col-lg-2  footer-col ">
-            <h2 class=" footer-col-title    ">useful links</h2>
+            <h2 class=" footer-col-title    ">Social Media Handles</h2>
             <div class="footer-col-content-wrapper">
               <ul class="footer-menu ">
-                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Google</a>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Facebook</a>
                 </li>
-                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Dribbble</a>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Instagram</a>
                 </li>
                 <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">linkedIn</a>
                 </li>
-                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">wikipedia</a>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Discord</a>
+                </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Discord</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-6 col-lg-2 footer-col ">
-            <h2 class=" footer-col-title    ">Resources</h2>
+            <h2 class=" footer-col-title    ">Some Useful Links</h2>
             <div class="footer-col-content-wrapper">
               <ul class="footer-menu">
-                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">support</a>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Terms & Conditions</a>
                 </li>
-                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">dashboard</a>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Support</a>
                 </li>
-                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">drivers</a>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Contact</a>
                 </li>
-                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">projects</a>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">Projects</a>
                 </li>
               </ul>
             </div>
@@ -654,17 +653,17 @@
           <div class="col-12     col-lg-4 footer-col ">
             <h2 class=" footer-col-title    ">contact information</h2>
             <div class="footer-col-content-wrapper">       
-              <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:example@support.com">example@support.com</a></div>
-              <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span class="text-lowercase  info">5 Xyz st., Abc, alexandria, egypt.</span></div>
-              <div class="contact-info-card"><i class="bi bi-phone icon"></i><a class="info" href="tel:+20123456789">+20123456789  </a></div>
+              <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:example@support.com">info@artovaworkspace.com</a></div>
+              <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span class="text-lowercase  info">Kathmandu-18, Maitidevi</span></div>
+              <div class="contact-info-card"><i class="bi bi-phone icon"></i><a class="info" href="tel:+20123456789">+977 9868618385 / +977 9827691222</a></div>
               <div class="contact-info-card">
                 <div class="social-icons">
                   <div class="sc-wrapper dir-row sc-size-32">
                     <ul class="sc-list">
                       <li class="sc-item " title="Facebook"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
-                      <li class="sc-item " title="youtube"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                      <li class="sc-item " title="youtube"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-discord sc-icon"></i></a></li>
                       <li class="sc-item " title="instagram"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
-                      <li class="sc-item " title="twitter"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-twitter sc-icon"></i></a></li>
+                      <li class="sc-item " title="twitter"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-whatsapp sc-icon"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -681,14 +680,14 @@
                  
                 
                 &copy; 2023
-                Created by:
+                Developed by:
                 
-                           <a class="link" href="#0">amin-themes</a>
+                           <a class="link" href="#0">Sangit Pokhrel</a>
               </p>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-end">
-              <div class="terms-links"><a href="#0">Terms of Use </a>
-                | <a href="#0" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Privacy Policy.</a>
+              <div class="terms-links"><a href="#0">Artova Workspace</a>
+                | <a href="#0" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Do Not Copy</a>
               </div>
             </div>
           </div>
@@ -780,5 +779,4 @@
         <script src="js/main.js"></script>
   </body>
 
-<!-- Mirrored from amincodes.com/html/flex-it/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Oct 2023 06:28:39 GMT -->
 </html>

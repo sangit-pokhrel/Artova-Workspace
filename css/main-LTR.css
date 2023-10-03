@@ -361,8 +361,9 @@ a:hover {
 }
 
 .has-dark-bg {
-  background-color: var(--clr-dark-blue);
+  background-color: var(--clr-white);
 }
+
 .has-dark-bg .sec-heading .title,
 .has-dark-bg .sec-heading .subtitle {
   color: var(--clr-white);
@@ -3397,7 +3398,7 @@ body.rounded-btns .read-more {
   font-weight: 300;
   line-height: 1.7;
   font-style: italic;
-  color: var(--clr-white);
+  color: var(--clr-black);
   padding: 0;
   margin: 0;
 }
@@ -3433,11 +3434,11 @@ body.rounded-btns .read-more {
 }
 .testimonials .customer-details .customer-name {
   font-size: 1.25rem;
-  color: var(--clr-white);
+  color: var(--clr-black);
 }
 .testimonials .customer-details .customer-role {
   font-size: 1rem;
-  color: var(--clr-white);
+  color: var(--clr-black);
   opacity: 0.75;
 }
 
@@ -3449,19 +3450,20 @@ body.rounded-btns .read-more {
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
-  color: var(--clr-white);
-  background-color: rgba(var(--clr-main-rgb), 1);
+  color: var(--clr-black);
+  background-color: rgba(var(--clr-main), 1);
   cursor: pointer;
   transition: all 0.3s ease-in-out 0s;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(var(--clr-white-rgb), 0.25);
+  background-color: var(--clr-main);
   margin-top: 0;
 }
-.testimonials .swiper-button-prev:hover,
-.testimonials .swiper-button-next:hover {
-  background-color: rgba(var(--clr-main-rgb), 0.8);
+
+.fade-transition {
+  transition: var(--clr-dark-blue) 1.3s ease-in;
 }
+
 .testimonials .swiper-button-prev:after,
 .testimonials .swiper-button-next:after {
   content: "";
@@ -5104,7 +5106,7 @@ body.dark-theme .team-member .profile {
   background-color: var(--clr-semi-dark-blue);
 }
 body.dark-theme .about .cta-area .signature .signature-img {
-  background-image: url("../assets/images/about/signature-light.png");
+  background-image: url("../assets/images/about/sangit-sign-light.png");
 }
 body.dark-theme .about .stats-counter.stats-cards .stat-box {
   background: var(--clr-semi-dark-blue);
