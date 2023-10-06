@@ -2382,6 +2382,7 @@ body.rounded-btns .read-more {
   height: 60vh;
   min-height: 60vh;
   opacity: 1;
+  background-color: var(--clr-dark-blue);
 }
 .inner-page-hero:before {
   display: none;
