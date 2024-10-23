@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-01 13:39+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: footer.php:27
+#, php-format
+msgid "Theme Pillar Blog Powered by %s"
+msgstr ""
+
+#: footer.php:27
+msgid "Kantipur Themes"
+msgstr ""
+
+#: index.php:54
+msgid "Previous page"
+msgstr ""
+
+#: index.php:55
+msgid "Next page"
+msgstr ""
+
+#: index.php:56
+msgid "Page"
+msgstr ""
+
+#: inc/customizer/feature-post-one-options.php:5
+msgid "Feature Post Options"
+msgstr ""
+
+#: inc/customizer/feature-post-one-options.php:21
+msgid "Feature Posts"
+msgstr ""
+
+#: inc/customizer/feature-post-one-options.php:40
+#: inc/customizer/popular-post-options.php:58
+#: inc/customizer/recent-post-options.php:58
+#: inc/customizer/top-stories-options.php:58
+#: inc/customizer/trending-post-options.php:58
+msgid "Select Categories"
+msgstr ""
+
+#: inc/customizer/popular-post-options.php:5
+msgid "Popular Post Options"
+msgstr ""
+
+#: inc/customizer/popular-post-options.php:21
+#: inc/customizer/popular-post-options.php:30
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/customizer/popular-post-options.php:39
+#: inc/customizer/recent-post-options.php:39
+#: inc/customizer/top-stories-options.php:39
+#: inc/customizer/trending-post-options.php:39
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/recent-post-options.php:5
+msgid "Recent Post Options"
+msgstr ""
+
+#: inc/customizer/recent-post-options.php:21
+#: inc/customizer/recent-post-options.php:30
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/customizer/top-stories-options.php:5
+msgid "Top Stories Options"
+msgstr ""
+
+#: inc/customizer/top-stories-options.php:21
+#: inc/customizer/top-stories-options.php:30
+msgid "Top Stories"
+msgstr ""
+
+#: inc/customizer/trending-post-options.php:5
+msgid "Trending Post Options"
+msgstr ""
+
+#: inc/customizer/trending-post-options.php:21
+#: inc/customizer/trending-post-options.php:30
+msgid "Trending Posts"
+msgstr ""
